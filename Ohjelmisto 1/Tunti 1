@@ -1,1 +1,17 @@
+import numpy as np
 
+print("Tehtävä 1. osa 1:")
+print(np.degrees(2.493))
+print(np.degrees(0.911))
+
+print("\nTehtävä 1. osa 2:")
+print(np.radians(137.7))
+print(np.radians(62.3))
+
+print("\nTehtävä 1. osa 3:")
+asteet = np.array([30, 45, 60, 90, 120, 135, 150, 180, 270, 360])
+for i in asteet:
+    print(f"{i} = {np.radians(i)}")
+
+print("\nTehtävä 2. osa 1:")
+print(np.hypot(1.6, 2.3))
